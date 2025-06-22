@@ -1,5 +1,6 @@
 // src/types/portfolio.types.ts
 export interface ContactInfo {
+  github: string;
   email: string;
   phone: string;
   location: string;
