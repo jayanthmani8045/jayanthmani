@@ -1,6 +1,7 @@
+// src/components/Hero/Hero.tsx
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
-import type { ContactInfo, RoleData } from '../../types/portfolio.types';
+import { Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
+import { ContactInfo, RoleData } from '../../types/portfolio.types';
 
 interface HeroProps {
   name: string;
@@ -32,6 +33,10 @@ const Hero: React.FC<HeroProps> = ({ name, contact, roleData }) => {
             <a href={contact.linkedin} className="contact-item" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5" />
               LinkedIn
+            </a>
+            <a href={contact.github} className="contact-item" target="_blank" rel="noopener noreferrer">
+              <Github className="w-5 h-5" />
+              GitHub
             </a>
           </div>
         </div>

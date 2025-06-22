@@ -9,7 +9,8 @@ export const portfolioData: PortfolioData = {
       email: "mani.j@northeastern.edu",
       phone: "(857) 506-3330",
       location: "Boston, MA",
-      linkedin: "https://linkedin.com/in/jayanth-mani-b478a51b9/"
+      linkedin: "https://linkedin.com/in/jayanth-mani-b478a51b9/",
+      github: "https://github.com/jayanthmani8045"
     }
   },
   
