@@ -2,7 +2,8 @@
 
 A modern, responsive portfolio website that dynamically switches between **Software Engineer** and **Data Engineer/AI-ML Specialist** roles, built with React, TypeScript, and SCSS.
 
-![Portfolio Live](https://jayanthmani.onrender.com)
+[![Alt Text](https://github.com/jayanthmani8045/jayanthmani/blob/main/Frontend/Portfolio/public/jm.png?raw=true)](https://jayanthmani.onrender.com)
+[Portfolio Live](https://jayanthmani.onrender.com)
 
 ## ✨ Features
 
