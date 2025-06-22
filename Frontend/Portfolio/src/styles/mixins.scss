@@ -1,0 +1,55 @@
+// src/styles/mixins.scss
+
+// Glass Effect Mixin
+@mixin glass-effect($opacity: 0.1) {
+  background: rgba(255, 255, 255, $opacity);
+  backdrop-filter: blur(20px);
+  border: 1px solid $glass-border;
+}
+
+// Card Hover Effect
+@mixin card-hover {
+  transition: all $transition-fast ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-heavy;
+  }
+}
+
+// Fade In Animation
+@mixin fade-in-up($delay: 0s) {
+  animation: fadeInUp 1s ease #{$delay} both;
+}
+
+// Flexbox Center
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Button Reset
+@mixin button-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+// Text Truncate
+@mixin text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// Responsive Typography
+@mixin responsive-font($mobile-size, $desktop-size) {
+  font-size: $mobile-size;
+  
+  @media (min-width: $tablet) {
+    font-size: $desktop-size;
+  }
+}
