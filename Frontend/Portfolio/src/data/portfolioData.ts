@@ -166,17 +166,22 @@ export const portfolioData: PortfolioData = {
     {
       title: "ITIL® Foundation",
       description: "ITIL® Into Practice: Applying ITIL® v3, v4 Foundation Concepts",
-      issuer: "ITIL"
+      issuer: "LinkedIn"
     },
     {
       title: "Microsoft Certified",
       description: "Windows Server: DHCP, High Availability, Storage",
-      issuer: "Microsoft"
+      issuer: "LinkedIn"
     },
     {
-      title: "Professional Certifications",
-      description: "HackerRank: Python, Problem Solving, SQL | LinkedIn: MERN Essential, Bash Shell Scripting",
-      issuer: "Various"
+      title: "HackerRank Certifications",
+      description: "Python, Problem Solving, SQL",
+      issuer: "HackerRank"
+    },
+    {
+      title: "LinkedIn Certifications",
+      description: "MERN Essential, Bash Shell Scripting",
+      issuer: "HackerRank"
     }
   ]
 };

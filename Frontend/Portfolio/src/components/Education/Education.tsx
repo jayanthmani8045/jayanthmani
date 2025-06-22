@@ -48,20 +48,6 @@ const Education: React.FC<EducationProps> = ({ education, certifications, curren
         <div className="container">
           <div className="education-grid">
             {certifications.map((cert, index) => {
-              // Show all certifications for software role, filter for data role
-              if (currentRole === 'data' && cert.title === 'Professional Certifications') {
-                return (
-                  <div key={index} className="education-card">
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-                      <Award className="w-8 h-8 text-blue-600" />
-                      <div>
-                        <h3 className="card-title">{cert.title}</h3>
-                        <p className="card-meta">{cert.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              } else if (currentRole === 'software' && cert.title !== 'Professional Certifications') {
                 return (
                   <div key={index} className="education-card">
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
@@ -74,8 +60,7 @@ const Education: React.FC<EducationProps> = ({ education, certifications, curren
                   </div>
                 );
               }
-              return null;
-            })}
+            )}
           </div>
         </div>
       </section>
