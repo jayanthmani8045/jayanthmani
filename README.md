@@ -128,33 +128,7 @@ The portfolio is fully responsive with breakpoints:
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Follow the prompts
-```
-
-### Netlify
-```bash
-# Build the project
-npm run build
-
-# Upload the dist/ folder to Netlify
-```
-
-### GitHub Pages
-```bash
-# Install gh-pages
-npm install --save-dev gh-pages
-
-# Add to package.json scripts
-"deploy": "gh-pages -d dist"
-
 # Deploy
 npm run build
 npm run deploy
@@ -183,18 +157,6 @@ npm run deploy
 - **First Contentful Paint:** < 1.5s
 - **Time to Interactive:** < 2.5s
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-**Repository:** [https://github.com/jayanthmani8045/jayanth-portfolio](https://github.com/jayanthmani8045/jayanth-portfolio)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -203,7 +165,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Jayanth Mani**
 - 📧 Email: [mani.j@northeastern.edu](mailto:mani.j@northeastern.edu)
-- 📱 Phone: (857) 506-3330
 - 📍 Location: Boston, MA
 - 💼 LinkedIn: [jayanth-mani-b478a51b9](https://linkedin.com/in/jayanth-mani-b478a51b9/)
 - 💻 GitHub: [jayanthmani8045](https://github.com/jayanthmani8045)
