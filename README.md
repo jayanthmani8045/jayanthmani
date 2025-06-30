@@ -182,8 +182,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repository if you found it helpful!**
 
-🔗 **[View Live Demo](https://jayanthmani.onrender.com)** | 📁 **[Source Code](https://github.com/jayanthmani8045/jayanth-portfolio)**
+🔗 **[View Live Demo](https://jayanthmani.onrender.com)** | 📁 **[Source Code](https://github.com/jayanthmani8045/jayanthmani.git)**
 
 ---
 
-*Built with ❤️ by Jayanth Mani - Software Engineer & Data Scientist*
+*Built with ❤️ by Jayanth Mani - Software Engineer & Data Engineer*
