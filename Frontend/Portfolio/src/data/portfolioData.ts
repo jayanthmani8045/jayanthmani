@@ -122,7 +122,7 @@ export const portfolioData: PortfolioData = {
           "Streamlined data migrations by leading stakeholder workshops, mapping 150+ fields to new schemas with zero loss",
           "Enabled proactive analytics by engineering real-time data pipelines sustaining 99.9% data integrity"
         ],
-        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"],
+        tech: ["Python", "React", "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"],
         award: ["Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"]
       },
       projects: [
