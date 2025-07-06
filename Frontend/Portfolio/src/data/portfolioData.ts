@@ -46,18 +46,6 @@ export const portfolioData: PortfolioData = {
           iconName: "Globe"
         },
         {
-          title: "Talent Search",
-          duration: "Sep 2024 – Dec 2024",
-          description: "Implemented an AI-powered document analysis system leveraging OpenAI NLP models",
-          highlights: [
-            "Reduced 80% of recruitment time through automated assessment and ranking",
-            "Directed a diverse team to surpass project milestones with timely deliverables",
-            "Integrated Spring Boot backend with React frontend for seamless user experience"
-          ],
-          tech: ["Java", "Git", "Spring Boot", "React.js", "MongoDB"],
-          iconName: "Users"
-        },
-        {
           title: "Food Conservation Portal",
           duration: "Jan 2025 – Apr 2025",
           description: "Boosted food-redistribution efficiency by 70% through a normalized ER-driven schema",
