@@ -25,12 +25,12 @@ export const portfolioData: PortfolioData = {
         location: "Chennai, India",
         duration: "Feb 2022 – Aug 2023",
         highlights: [
-          "Developed C++ & Python-based automation scripts to streamline network operations across 70+ global locations (USA, Australia, China)",
-          "Engaged with Fortinet, Cisco, and client stakeholders to gather requirements and evaluate solution designs",
-          "Developed real-time telemetry pipelines (ISE/NAC, WLC, firewalls, switches) to enable comprehensive monitoring",
-          "Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"
+          "Lexmark International, Inc. ($1.2B): Developed C++ & Python-based automation scripts to streamline network operations across 70+ global locations (USA, Australia, China), reducing downtime upto 40%",
+          "Collaborated in an agile environment with Fortinet, Cisco, and key clients to gather business needs and assess technical designs, driving the iterative delivery of network solutions and achieving a 30% reduction in latency",
+          "Deployed real-time telemetry pipelines ingesting ISE/NAC, WLC, firewall, and switch data via SQL and FastAPI, empowering 24/7 network visibility and accelerating incident detection by 80%"
         ],
-        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "UiPath", "FastAPI"]
+        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "UiPath", "FastAPI"],
+        award: ["Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"]
       },
       projects: [
         {
@@ -68,14 +68,42 @@ export const portfolioData: PortfolioData = {
           ],
           tech: ["Oracle Autonomous Database", "PL/SQL", "FastAPI", "React", "Axios", "Git", "TailwindCSS"],
           iconName: "Server"
+        },
+        {
+          title: "Data-Driven Travel Reimbursement Predictor",
+          duration: "Apr 2025 – Jun 2025",
+          description: "Designed a Python CLI tool leveraging machine learning to automate reimbursement estimates",
+          highlights: [
+            "Achieved 80% R² with under $200 error through evaluation on 1,000+ historical cases",
+            "Optimized runtime by persisting models with joblib for instantaneous predictions",
+            "Implemented Random Forest algorithm with comprehensive feature engineering"
+          ],
+          tech: ["Python", "pandas", "scikit-learn", "joblib", "Bash", "Machine Learning"],
+          iconName: "BarChart3"
+        },
+        {
+          title: "AI-Powered Talent Analytics",
+          duration: "Sep 2024 – Dec 2024",
+          description: "Implemented advanced NLP-based document analysis system for recruitment optimization",
+          highlights: [
+            "Leveraged OpenAI NLP models to assess and rank submissions against predefined criteria",
+            "Reduced recruitment time by 80% through automated candidate evaluation",
+            "Built scalable data processing pipeline handling thousands of documents"
+          ],
+          tech: ["Python", "OpenAI API", "NLP", "Java", "Spring Boot", "MongoDB"],
+          iconName: "Brain"
         }
       ],
       skills: {
-        "Programming Languages": ["C & C++", "Java", "Python", "SQL", "PL/SQL", "JavaScript", "TypeScript"],
+        "Programming Languages": ["C & C++", "Java", "Python", "SQL", "PL/SQL", "JavaScript", "TypeScript",  "R"],
         "Web Technologies": ["HTML5", "CSS", "React.js", "Node.js", "Express.js", "FastAPI"],
-        "Databases": ["MongoDB", "Oracle SQL Database", "Microsoft SQL Server", "MySQL"],
+        "Databases": ["MongoDB", "Oracle SQL Database", "Microsoft SQL Server", "MySQL","Snowflake", "Databricks"],
         "Tools & Platforms": ["Git", "Docker", "Azure", "AWS", "Google Cloud Platform", "CI/CD"],
-        "Development Tools": ["Eclipse", "Visual Studio", "PyCharm", "Cursor"]
+        "Development Tools": ["Eclipse", "Visual Studio", "PyCharm", "Cursor"],
+        "ML & AI Tools": ["Pandas", "Scikit-learn", "XGBoost", "PyTorch", "TensorFlow", "NumPy"],
+        "Visualization": ["Tableau", "Power BI", "Matplotlib", "Seaborn", "Excel"],
+        "Cloud & Infrastructure": ["Azure", "Google Cloud Platform", "Docker", "CI/CD"],
+        "Networking & Systems": ["TCP/IP", "OSPF", "ISIS", "ACL", "SDN", "BGP", "WLC", "DNS", "IoT"]
       }
     },
     
@@ -94,7 +122,8 @@ export const portfolioData: PortfolioData = {
           "Streamlined data migrations by leading stakeholder workshops, mapping 150+ fields to new schemas with zero loss",
           "Enabled proactive analytics by engineering real-time data pipelines sustaining 99.9% data integrity"
         ],
-        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"]
+        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"],
+        award: ["Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"]
       },
       projects: [
         {

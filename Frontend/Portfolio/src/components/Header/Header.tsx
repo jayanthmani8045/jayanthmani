@@ -22,13 +22,13 @@ const Header: React.FC<HeaderProps> = ({ currentRole, onRoleChange, name }) => {
               <Code className="w-4 h-4 inline mr-2" />
               Software Engineer
             </button>
-            <button 
+            {/* <button 
               className={`toggle-btn ${currentRole === 'data' ? 'active' : ''}`}
               onClick={() => onRoleChange('data')}
             >
               <Database className="w-4 h-4 inline mr-2" />
               Data Engineer
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

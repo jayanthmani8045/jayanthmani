@@ -14,6 +14,7 @@ export interface Experience {
   duration: string;
   highlights: string[];
   tech: string[];
+  award: string[];
 }
 
 export interface Project {

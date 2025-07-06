@@ -22,6 +22,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
               {experience.duration}
             </span>
           </div>
+          <div><p><b>Award:</b> {experience.award}</p></div>
           <ul className="highlights">
             {experience.highlights.map((highlight, index) => (
               <li key={index}>{highlight}</li>
