@@ -29,7 +29,7 @@ export const portfolioData: PortfolioData = {
           "Collaborated in an agile environment with Fortinet, Cisco, and key clients to gather business needs and assess technical designs, driving the iterative delivery of network solutions and achieving a 30% reduction in latency",
           "Deployed real-time telemetry pipelines ingesting ISE/NAC, WLC, firewall, and switch data via SQL and FastAPI, empowering 24/7 network visibility and accelerating incident detection by 80%"
         ],
-        tech: ["Python", "SQL", "Oracle", "Git", "Excel", "UiPath", "FastAPI"],
+        tech: ["Python", "React", "SQL", "Oracle", "Git", "Excel", "UiPath", "FastAPI"],
         award: ["Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"]
       },
       projects: [
@@ -122,7 +122,7 @@ export const portfolioData: PortfolioData = {
           "Streamlined data migrations by leading stakeholder workshops, mapping 150+ fields to new schemas with zero loss",
           "Enabled proactive analytics by engineering real-time data pipelines sustaining 99.9% data integrity"
         ],
-        tech: ["Python", "React", "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"],
+        tech: ["Python",  "SQL", "Oracle", "Git", "Excel", "ETL", "Data Pipelines"],
         award: ["Ranked top 10% in TCS Readiness Proctored Assessment, showcasing expertise in OOP and UNIX"]
       },
       projects: [
